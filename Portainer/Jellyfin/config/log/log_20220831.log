@@ -1,0 +1,66 @@
+[2022-08-31 03:34:55.362 +00:00] [INF] [4] Main: Jellyfin version: "10.8.4"
+[2022-08-31 03:34:55.415 +00:00] [INF] [4] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2022-08-31 03:34:55.422 +00:00] [INF] [4] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg", "--webdir=/usr/share/jellyfin/web"]
+[2022-08-31 03:34:55.424 +00:00] [INF] [4] Main: Operating system: "Linux"
+[2022-08-31 03:34:55.424 +00:00] [INF] [4] Main: Architecture: X64
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: 64-Bit Process: True
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: User Interactive: True
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: Processor count: 8
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: Program data path: "/config/data"
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: Web resources path: "/usr/share/jellyfin/web"
+[2022-08-31 03:34:55.426 +00:00] [INF] [4] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2022-08-31 03:34:55.462 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["CreateNetworkConfiguration"]
+[2022-08-31 03:34:55.686 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2022-08-31 03:34:55.705 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2022-08-31 03:34:55.915 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2022-08-31 03:34:55.915 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2022-08-31 03:34:55.917 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2022-08-31 03:34:55.930 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2022-08-31 03:34:55.930 +00:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2022-08-31 03:34:58.486 +00:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: There are pending EFCore migrations in the database. Applying... (This may take a while, do not stop Jellyfin)
+[2022-08-31 03:34:59.220 +00:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: EFCore migrations applied successfully
+[2022-08-31 03:35:00.162 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2022-08-31 03:35:00.163 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2022-08-31 03:35:00.178 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.4.0"
+[2022-08-31 03:35:00.180 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.4.0"
+[2022-08-31 03:35:00.181 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.4.0"
+[2022-08-31 03:35:00.182 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.4.0"
+[2022-08-31 03:35:00.183 +00:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.4.0"
+[2022-08-31 03:35:00.299 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["DisableTranscodingThrottling", "CreateLoggingConfigHeirarchy", "MigrateActivityLogDatabase", "RemoveDuplicateExtras", "MigrateUserDatabase", "MigrateDisplayPreferencesDatabase", "RemoveDownloadImagesInAdvance", "MigrateAuthenticationDatabase"]
+[2022-08-31 03:35:00.300 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddDefaultPluginRepository"'
+[2022-08-31 03:35:00.301 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2022-08-31 03:35:00.302 +00:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2022-08-31 03:35:00.302 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddDefaultPluginRepository"' applied successfully
+[2022-08-31 03:35:00.328 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"ReaddDefaultPluginRepository"'
+[2022-08-31 03:35:00.329 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"ReaddDefaultPluginRepository"' applied successfully
+[2022-08-31 03:35:00.330 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddPeopleQueryIndex"'
+[2022-08-31 03:35:00.331 +00:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_TypedBaseItemsUserDataKeyType
+[2022-08-31 03:35:00.348 +00:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_PeopleNameListOrder
+[2022-08-31 03:35:00.364 +00:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddPeopleQueryIndex"' applied successfully
+[2022-08-31 03:35:00.394 +00:00] [INF] [4] Main: Kestrel listening on "Any IP4 Address"
+[2022-08-31 03:35:00.518 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2022-08-31 03:35:00.518 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2022-08-31 03:35:01.033 +00:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {5bc9a2d4-ecb9-4be0-a222-e9325bdf4adc} may be persisted to storage in unencrypted form.
+[2022-08-31 03:35:01.070 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2022-08-31 03:35:01.125 +00:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2022-09-01 02:00:00.000 +00:00, which is 22:24:58.8751615 from now.
+[2022-08-31 03:35:01.361 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1"
+[2022-08-31 03:35:01.461 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2022-08-31 03:35:01.490 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2022-08-31 03:35:01.557 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2022-08-31 03:35:01.729 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2022-08-31 03:35:01.756 +00:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2022-08-31 03:35:01.759 +00:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: ServerId: "09e881bad2d148cda497aee7a84f36d4"
+[2022-08-31 03:35:01.982 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.1986066
+[2022-08-31 03:35:01.982 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2022-08-31 03:35:02.275 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.2933223
+[2022-08-31 03:35:02.276 +00:00] [INF] [16] Main: Startup complete 0:00:07.3168848
+[2022-08-31 03:35:04.134 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2022-08-31 03:35:04.137 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2022-08-31 03:35:04.146 +00:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2022-08-31 03:35:05.027 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 0 seconds
+[2022-08-31 03:35:05.052 +00:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-31 03:35:42.554 +00:00] [INF] [22] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2022-08-31 03:35:42.557 +00:00] [INF] [22] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2022-08-31 03:35:42.559 +00:00] [INF] [12] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2022-08-31 03:35:42.611 +00:00] [WRN] [20] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "abc"
+[2022-08-31 03:35:43.444 +00:00] [WRN] [20] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Startup/User" to "172.17.0.1" in 0:00:00.8483977 with Status Code 200
