@@ -1,0 +1,92 @@
+(N) 2022-09-01T02:13:19 - qBittorrent v4.4.5 started
+(N) 2022-09-01T02:13:19 - Using config directory: /config/qBittorrent
+(I) 2022-09-01T02:13:19 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2022-09-01T02:13:19 - Peer ID: -qB4450-
+(N) 2022-09-01T02:13:19 - HTTP User-Agent is 'qBittorrent/4.4.5'
+(I) 2022-09-01T02:13:19 - DHT support [ON]
+(I) 2022-09-01T02:13:19 - Local Peer Discovery support [ON]
+(I) 2022-09-01T02:13:19 - PeX support [ON]
+(I) 2022-09-01T02:13:19 - Anonymous mode [OFF]
+(I) 2022-09-01T02:13:19 - Encryption support [ON]
+(W) 2022-09-01T02:13:19 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2022-09-01T02:13:19 - Using built-in Web UI.
+(W) 2022-09-01T02:13:19 - Couldn't load Web UI translation for selected locale (C).
+(N) 2022-09-01T02:13:19 - Web UI: Now listening on IP: *, port: 8080
+(I) 2022-09-01T02:13:19 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2022-09-01T02:13:19 - Successfully listening on IP: 127.0.0.1, port: UTP/6881
+(I) 2022-09-01T02:13:19 - Successfully listening on IP: 172.17.0.5, port: TCP/6881
+(I) 2022-09-01T02:13:19 - Successfully listening on IP: 172.17.0.5, port: UTP/6881
+(W) 2022-09-01T02:13:19 - Couldn't download IP geolocation database file. Reason: The remote content was not found at the server (404)
+(I) 2022-09-01T02:13:19 - Detected external IP: 198.200.111.23
+(W) 2022-09-01T02:16:50 - WebUI: Origin header & Target origin mismatch! Source IP: '::ffff:172.17.0.1'. Origin header: 'chrome-extension://mpognobbkildjkofajifpdfhcoklimli'. Target origin: 'localhost:8080'
+(W) 2022-09-01T02:16:57 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.17.0.1, username: 
+(W) 2022-09-01T02:17:01 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:17:02 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:17:05 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:17:05 - WebAPI login failure. Reason: invalid credentials, attempt count: 5, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:17:09 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem
+(W) 2022-09-01T02:17:12 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: 
+(W) 2022-09-01T02:17:12 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: 
+(W) 2022-09-01T02:17:12 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: 
+(W) 2022-09-01T02:17:57 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem
+(W) 2022-09-01T02:18:19 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@fem-Studio-XPS-1645
+(W) 2022-09-01T02:18:23 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@fem-Studio-XPS-1645
+(W) 2022-09-01T02:18:34 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@fem-Studio-XPS-1645
+(W) 2022-09-01T02:18:34 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@fem-Studio-XPS-1645
+(W) 2022-09-01T02:19:10 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:20:09 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: admin
+(W) 2022-09-01T02:24:45 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: docker
+(W) 2022-09-01T02:24:48 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: docker
+(W) 2022-09-01T02:24:51 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: docker
+(W) 2022-09-01T02:24:53 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: docker
+(W) 2022-09-01T02:24:57 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: docker
+(W) 2022-09-01T02:25:01 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem
+(W) 2022-09-01T02:25:21 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@Studio-XPS-1645
+(W) 2022-09-01T02:25:22 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@Studio-XPS-1645
+(W) 2022-09-01T02:25:22 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:172.17.0.1, username: fem@Studio-XPS-1645
+(I) 2022-09-01T02:28:00 - UPnP / NAT-PMP support [OFF]
+(N) 2022-09-01T02:28:06 - qBittorrent v4.4.5 started
+(N) 2022-09-01T02:28:06 - Using config directory: /config/qBittorrent
+(I) 2022-09-01T02:28:06 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2022-09-01T02:28:06 - Peer ID: -qB4450-
+(N) 2022-09-01T02:28:06 - HTTP User-Agent is 'qBittorrent/4.4.5'
+(I) 2022-09-01T02:28:06 - DHT support [ON]
+(I) 2022-09-01T02:28:06 - Local Peer Discovery support [ON]
+(I) 2022-09-01T02:28:06 - PeX support [ON]
+(I) 2022-09-01T02:28:06 - Anonymous mode [OFF]
+(I) 2022-09-01T02:28:06 - Encryption support [ON]
+(W) 2022-09-01T02:28:06 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2022-09-01T02:28:06 - Using built-in Web UI.
+(W) 2022-09-01T02:28:06 - Couldn't load Web UI translation for selected locale (C).
+(N) 2022-09-01T02:28:06 - Web UI: Now listening on IP: *, port: 8080
+(I) 2022-09-01T02:28:06 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2022-09-01T02:28:06 - Successfully listening on IP: 127.0.0.1, port: UTP/6881
+(I) 2022-09-01T02:28:06 - Successfully listening on IP: 172.17.0.5, port: TCP/6881
+(I) 2022-09-01T02:28:06 - Successfully listening on IP: 172.17.0.5, port: UTP/6881
+(W) 2022-09-01T02:28:06 - Couldn't download IP geolocation database file. Reason: The remote content was not found at the server (404)
+(I) 2022-09-01T02:28:06 - Detected external IP: 198.200.111.23
+(W) 2022-09-01T02:28:10 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.17.0.1, username: 
+(N) 2022-09-01T02:28:18 - WebAPI login success. IP: ::ffff:172.17.0.1
+(I) 2022-09-01T02:28:50 - UPnP / NAT-PMP support [OFF]
+(N) 2022-09-01T02:28:55 - qBittorrent v4.4.5 started
+(N) 2022-09-01T02:28:55 - Using config directory: /config/qBittorrent
+(I) 2022-09-01T02:28:55 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2022-09-01T02:28:55 - Peer ID: -qB4450-
+(N) 2022-09-01T02:28:55 - HTTP User-Agent is 'qBittorrent/4.4.5'
+(I) 2022-09-01T02:28:55 - DHT support [ON]
+(I) 2022-09-01T02:28:55 - Local Peer Discovery support [ON]
+(I) 2022-09-01T02:28:55 - PeX support [ON]
+(I) 2022-09-01T02:28:55 - Anonymous mode [OFF]
+(I) 2022-09-01T02:28:55 - Encryption support [ON]
+(W) 2022-09-01T02:28:55 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2022-09-01T02:28:55 - Using built-in Web UI.
+(W) 2022-09-01T02:28:55 - Couldn't load Web UI translation for selected locale (C).
+(N) 2022-09-01T02:28:55 - Web UI: Now listening on IP: *, port: 8080
+(I) 2022-09-01T02:28:55 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2022-09-01T02:28:55 - Successfully listening on IP: 127.0.0.1, port: UTP/6881
+(I) 2022-09-01T02:28:55 - Successfully listening on IP: 172.17.0.5, port: TCP/6881
+(I) 2022-09-01T02:28:55 - Successfully listening on IP: 172.17.0.5, port: UTP/6881
+(W) 2022-09-01T02:28:55 - Couldn't download IP geolocation database file. Reason: The remote content was not found at the server (404)
+(I) 2022-09-01T02:28:55 - Detected external IP: 198.200.111.23
+(N) 2022-09-01T02:29:13 - WebAPI login success. IP: ::ffff:172.17.0.1
+(N) 2022-09-01T02:29:29 - Web UI: Now listening on IP: *, port: 8080

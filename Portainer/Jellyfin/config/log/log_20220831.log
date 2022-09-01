@@ -64,3 +64,29 @@
 [2022-08-31 03:35:42.559 +00:00] [INF] [12] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
 [2022-08-31 03:35:42.611 +00:00] [WRN] [20] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "abc"
 [2022-08-31 03:35:43.444 +00:00] [WRN] [20] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://localhost:8096/Startup/User" to "172.17.0.1" in 0:00:00.8483977 with Status Code 200
+[2022-08-31 03:37:09.100 +00:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2022-08-31 03:37:09.100 +00:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2022-08-31 03:37:09.723 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2022-08-31 03:37:09.725 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2022-08-31 03:37:09.725 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2022-08-31 03:37:09.727 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2022-08-31 03:37:09.727 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2022-08-31 03:37:09.730 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2022-08-31 03:37:09.731 +00:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2022-08-31 03:37:09.731 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2022-08-31 03:37:09.732 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2022-08-31 03:37:09.733 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2022-08-31 03:37:09.734 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2022-08-31 03:37:09.735 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2022-08-31 03:37:09.737 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2022-08-31 03:37:09.738 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2022-08-31 03:37:09.738 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.17.0.4"
+[2022-08-31 03:37:09.738 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2022-08-31 03:37:09.738 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-08-31 03:37:09.738 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2022-08-31 03:37:09.740 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2022-08-31 03:37:09.741 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-08-31 03:37:09.741 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2022-08-31 03:37:09.743 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2022-08-31 03:37:09.743 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2022-08-31 03:37:09.744 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
