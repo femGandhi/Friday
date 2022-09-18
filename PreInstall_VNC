@@ -1,0 +1,23 @@
+1)  Install Tight VNC
+      sudo apt update
+      sudo apt install tightvncserver
+      
+2)  Initialize       
+      vncserver
+      vncserver -kill :1
+      
+3)  Startup Config File
+      mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+      nano ~/.vnc/xstartup
+        #!/bin/bash
+        xrdb $HOME/.Xresources
+        startxfce4 &
+        
+4)  Turn it into an executable
+      chmod +x ~/.vnc/xstartup
+         
+5)  Restart Server
+      vncserver -localhost
+  
+To change passwords: 
+      vncpasswd
