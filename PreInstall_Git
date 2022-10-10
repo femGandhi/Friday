@@ -1,0 +1,15 @@
+sudo apt update
+sudo apt upgrade
+
+sudo apt install git
+
+mkdir Downloads
+
+cd Downloads
+git clone https://github.com/femGandhi/Friday.git
+
+./Friday/Install/install_docker.sh
+
+logout
+
+./Friday/Install/install_portainer.sh
