@@ -12,4 +12,4 @@ git clone https://github.com/femGandhi/Friday.git
 
 logout
 
-./Friday/Install/install_portainer.sh
+./Downloads/Friday/Install/install_portainer.sh
