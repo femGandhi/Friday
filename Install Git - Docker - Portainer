@@ -10,6 +10,6 @@ git clone https://github.com/femGandhi/Friday.git
 
 ./Friday/Install/install_docker.sh
 
-logout
+reboot #works better than just logging out
 
 ./Downloads/Friday/Install/install_portainer.sh
