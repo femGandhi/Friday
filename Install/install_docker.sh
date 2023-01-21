@@ -20,6 +20,7 @@ function check_container(){
   container_name = $1
   docker run container_name
   if [ "$( docker container inspect -f '{{.State.Status}}' $container_name )" == "running" ]; then 
+    echo container_name " is running successfully."
     return 1
   else
     echo "Remember to logoff/reboot for the changes to take effect."
