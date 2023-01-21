@@ -31,8 +31,13 @@ function check_container(){
 
 check_internet
 
+
+echo "--------------------------Installing Docker Engine---------------------------"
+
 ###   https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script
 curl -sSL https://get.docker.com | sh || error "Failed to install Docker."
+
+echo "------------------------Creating Docker User & Group ---------------------------"
 
 ### https://docs.docker.com/engine/install/linux-postinstall/
 #Usermod creates a usergroup called docker
@@ -41,5 +46,7 @@ sudo usermod -aG docker $USER || sudo gpasswd -a $USER docker || error "Failed t
 #Activate changes to groups
 newgrp docker
 
+
+echo "------------------------Verifying Install---------------------------"
 #Verify container is running
 check_container hello-world
