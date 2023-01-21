@@ -10,9 +10,8 @@ Install GIT & Clone Friday
 
 Install Docker & Portainer
 1) sudo ./Friday/Install/install_docker.sh
-2) sudo ./Friday/Install/install_portainer.sh
-3) sudo reboot
-4) sudo ./Friday/Install/update_portainer.sh
+2) sudo ./Friday/Install/install_portainer.sh #reboot may be required after
+3) sudo ./Friday/Install/update_portainer.sh
 
 
 Configure Portainer & Homer
