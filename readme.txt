@@ -9,7 +9,7 @@ Install GIT & Clone Friday
 4)  git clone https://github.com/femGandhi/Friday.git
 
 Install Docker & Portainer
-1) sudo ./install_docker.sh
+1) sudo ./Friday/Install/install_docker.sh
 2) sudo ./install_portainer.sh
 3) sudo reboot
 4) sudo ./update_portainer.sh
