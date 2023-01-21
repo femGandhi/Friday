@@ -1,3 +1,11 @@
+Install GIT & Clone Friday
+1)  sudo apt update
+2)  sudo apt upgrade
+3)  sudo apt install git
+4)  mkdir Downloads
+5)  cd Downloads
+6)  git clone https://github.com/femGandhi/Friday.git
+
 Install Docker & Portainer
 1) sudo ./install_docker.sh
 2) sudo ./install_portainer.sh
