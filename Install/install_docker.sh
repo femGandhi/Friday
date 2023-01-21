@@ -43,9 +43,11 @@ echo "------------------------Creating Docker User & Group ---------------------
 #Usermod creates a usergroup called docker
 sudo usermod -aG docker $USER || sudo gpasswd -a $USER docker || error "Failed to add user to the Docker usergroup."
 
+#Add a new user for files (optional)
+sudo useradd -m -s /bin/bash Friday
+
 #Activate changes to groups
 newgrp docker
-
 
 echo "------------------------Verifying Install---------------------------"
 #Verify container is running
