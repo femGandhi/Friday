@@ -24,3 +24,4 @@ Uninstall DOCKER
 dpkg -l | grep -i docker  #See installed docker packages
 sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin
 sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin
+sudo apt-get purge -y docker-scan-plugin docker-ce-rootless-extras
