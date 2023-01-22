@@ -1,12 +1,14 @@
+Create Friday User
+1)  sudo useradd -m -s /bin/bash Friday
+
 Update and Upgrade apt
 1)  sudo apt update
 2)  sudo apt upgrade
 
 Install GIT & Clone Friday
 1)  sudo apt install git
-2)  mkdir Downloads
-3)  cd Downloads
-4)  git clone https://github.com/femGandhi/Friday.git
+2)  cd ../friday
+3)  git clone https://github.com/femGandhi/Friday.git
 
 Install Docker & Portainer
 1) sudo ./Friday/Install/install_docker.sh
