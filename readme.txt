@@ -20,3 +20,6 @@ Configure Portainer
 Reestore Portainer from backup
 
 
+Uninstall DOCKER
+sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin
+sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin
