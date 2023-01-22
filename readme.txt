@@ -1,26 +1,22 @@
-Create Friday User
-1)  sudo useradd -m -s /bin/bash Friday
-
 Update and Upgrade apt
 1)  sudo apt update
 2)  sudo apt upgrade
 
 Install GIT & Clone Friday
 1)  sudo apt install git
-2)  cd ../friday
-3)  sudo git clone https://github.com/femGandhi/Friday.git
+2)  cd ..
+2)  sudo git clone https://github.com/femGandhi/Friday.git friday
 
 Install Docker & Portainer
-1) sudo ./Friday/Install/install_docker.sh
-2) sudo ./Friday/Install/install_portainer.sh #reboot may be required after
-3) sudo ./Friday/Install/update_portainer.sh
+1) sudo ./friday/Install/install_docker.sh
+2) sudo ./friday/Install/install_portainer.sh #reboot may be required after
+3) sudo ./friday/Install/update_portainer.sh
+
+Configure Portainer
+1) Create account to portainer http://localhost:9000
+2) Update App Templates URL in http://localhost:9000/#!/settings with a url from the templates file
 
 
-Configure Portainer & Homer
-5) Create account to portainer http://localhost:9000
-6) Update App Templates URL in http://localhost:9000/#!/settings with a url from the templates file
-7) Install Homer container
-    Change assets folder location on the host machine to somewhere in the user directory
-    Change the main Homer location on the host machine to somehwere in the user directory
-    Deploy container
+Reestore Portainer from backup
+
 
