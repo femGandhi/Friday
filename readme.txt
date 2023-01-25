@@ -22,6 +22,8 @@ Reestore Portainer from backup
 Remove running docker containers by first stopping them and later removing them
   docker stop $(docker ps -a -q)
   docker rm $(docker ps -a -q)
+Delete Portainer Volume
+  sudo docker volume rm portainer_data
 
 Uninstall DOCKER
   dpkg -l | grep -i docker  #See installed docker packages
