@@ -20,7 +20,11 @@ Configure Portainer
 Reestore Portainer from backup
 
 
+Remove running docker containers by first stopping them and later removing them
+  docker stop $(docker ps -a -q)
+  docker rm $(docker ps -a -q)
+
 Uninstall DOCKER
-dpkg -l | grep -i docker  #See installed docker packages
-sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras
-sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras
+  dpkg -l | grep -i docker  #See installed docker packages
+  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras
+  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin docker-scan-plugin docker-ce-rootless-extras
